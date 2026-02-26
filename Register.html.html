@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Student Registration</h2>
+
+<form action="/CourseRegistrationApp/register" method="post"></form>
+
+    Name: <input type="text" name="name" required><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    Phone: <input type="text" name="phone" required><br><br>
+
+    Select Course:
+    <select name="course">
+        <option value="1">Java Programming</option>
+        <option value="2">Web Development</option>
+        <option value="3">Database Systems</option>
+        <option value="4">Python Programming</option>
+    </select>
+
+    <br><br>
+    <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
